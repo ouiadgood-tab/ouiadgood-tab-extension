@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ouiadgood",
+  "description": "Raise money for charity with every browser tab you open!",
+  "icons": {
+    "16": "./img/OAG16.png",
+    "32": "./img/OAG32.png",
+    "48": "./img/OAG48.png",
+    "128": "./img/OAG128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "background": {
+    "service_worker": "ext-background.js"
+  },
+  "action": {},
+  "permissions": [],
+  "update_url": "http://clients2.google.com/service/update2/crx",
+  "version": "6.1"
+}
