@@ -16,6 +16,5 @@
   },
   "action": {},
   "permissions": [],
-  "update_url": "http://clients2.google.com/service/update2/crx",
-  "version": "6.1"
+  "version": "2.1"
 }
