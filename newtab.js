@@ -1,6 +1,6 @@
 /* globals chrome */
 
-const NEW_TAB_URL = 'https://oiuadgood.netlify.app/'
+const NEW_TAB_URL = 'https://ouiadgood.netlify.app/'
 try {
   chrome.tabs.getCurrent((tab) => {
     chrome.tabs.update(tab.id, { url: NEW_TAB_URL })
